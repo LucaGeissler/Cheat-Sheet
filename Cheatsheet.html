@@ -3,7 +3,7 @@
 <head>
   <title>CheatSheet</title>
   <meta charset="utf-8">
-
+  <link rel="Cheatsheet" href="Cheatsheet.css">
 </head>
 <body>
 <h3>My html Cheat sheet</h3>
@@ -11,6 +11,8 @@
 <h4><a href= "#Web Server"/>Web Server </h4>
 <h4><a href= "#Web Client"/>Web Client </h4>
 <h4><a href= "#Hello World"/>Hello World </h4></a>
+<h4><a href= "#Html"/>Html </h4></a>
+<h4><a href= "#Css"/>Css </h4></a>
 
 <h1>Cheet Sheet for the first Lesson</h1>
 
@@ -84,5 +86,171 @@
 <p><strong>How to mark up important ext and how is it displayed in the browser?</strong></p>
 
 <p>The strong tag is used to define text with strong importance. The content inside is typically displayed in bold.</p>
+
+<h1><a name = "Html"/>Html</h1>
+
+<dt><strong>components of a html element</strong></dt>
+
+<dd>start tag , element contant , end tag</dd>
+
+<dt><strong>identify void elements and how they are denoted</strong></dt>
+
+<dt><strong>identify attributes</strong></dt>
+
+<dd>The href attribute of "a" specifies the URL of the page the link goes to</dd>
+<dd>The src attribute of "img" specifies the path to the image to be displayed</dd>
+<dd>The width and height attributes of "img" provide size information for images</dd>
+<dd>The alt attribute of "img" provides an alternate text for an image</dd>
+<dd>The style attribute is used to add styles to an element, such as color, font, size, and more</dd>
+<dd>The lang attribute of the "html" tag declares the language of the Web page</dd>
+<dd>The title attribute defines some extra information about an element</dd>
+
+<dt><strong>doctype declaration for html5</strong></dt>
+
+<dd>correct declaration is !DOCTYPE html</dd>
+
+<dt><strong> article </strong></dt>
+
+<dd>The "article" tag specifies independent, self-contained content.</dd>
+<dd>The "article" element does not render as anything special in a browser. However, you can use CSS to style the "article" element (see example below).</dd>
+
+<dt><strong> body </strong></dt>
+
+<dd>The "body" element defines the document's body</dd>
+
+<dt><strong> br/ </strong></dt>
+
+<dd>The "br" tag defines a line break, and is an empty element without a closing tag:</dd>
+
+<dt><strong> h1 </strong></dt>
+
+<dd> The "h1" to "h6" tags are used to define HTML headings</dd>
+
+<dt><strong> head </strong></dt>
+
+<dd>Contains metadata/information for the document</dd>
+
+<dt><strong> html </strong></dt>
+
+<dd>Defines the root of an HTML document</dd>
+
+<dt><strong> ""img src="Team.jpg"" </strong></dt>
+
+<dd>	The "img" tag is used to embed an image in an HTML page.</dd>
+<dd>Images are not technically inserted into a web page; images are linked to web pages. The "img" tag creates a holding space for the referenced image.</dd>
+<dd>src - Specifies the path to the image</dd>
+<dd>alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed</dd>
+
+<dt><strong>"p"</strong><dt>
+
+<dd>	Defines a paragraph</dd>
+
+<dt><strong>"section"</strong><dt>
+
+<dd>	The "section" tag defines a section in a document</dd>
+
+<dt><strong>"title"</strong><dt>
+
+<dd>	The "title" tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</dd>
+<dd>The "title" tag is required in HTML documents!</dd>
+<dd>The contents of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results.</dd>
+<dd>defines a title in the browser toolbar</dd>
+<dd>provides a title for the page when it is added to favorites</dd>
+<dd>displays a title for the page in search-engine results</dd>
+<dd>Note: You can NOT have more than one "title" element in an HTML document.</dd>
+
+<dt><strong>"a"</strong><dt>
+
+<dd>The "a" tag defines a hyperlink, which is used to link from one page to another.</dd>
+<dd>The most important attribute of the "a" element is the href attribute, which indicates the link's destination.</dd>
+<dd>An unvisited link is underlined and blue</dd>
+<dd>A visited link is underlined and purple</dd>
+<dd>An active link is underlined and red</dd>
+
+<dt><strong>Comment</strong><dt>
+
+<dd>The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.</dd>
+<dd>You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code.</dd>
+
+<p><strong>Head with title and meta elements</strong></dt>
+
+<dt><strong>title</strong><dt>
+
+<dd>The "title" element defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</dd>
+<dd>defines a title in the browser toolbar</dd>
+<dd>provides a title for the page when it is added to favorites</dd>
+<dd>displays a title for the page in search engine-results</dd>
+
+<dt><strong>meta</strong></dt>
+
+<dd>The "meta" element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.</dd>
+<dd>The metadata will not be displayed on the page, but are used by browsers (how to display content or reload page), by search engines (keywords), and other web services.</dd>
+
+<h1><a name = "Css"/>Css</h1>
+
+<dt><strong>Components of a css rule</strong></dt>
+
+<dd>p is a selector in CSS (it points to the HTML element you want to style: "p").</dd>
+<dd>color is a property, and red is the property value</dd>
+<dd>text-align is a property, and center is the property value</dd>
+
+<dt><strong>direct child , descendant child,adjacent sibling,sibling</strong></dt>
+
+<dd>descendant selector (space) child selector (>) adjacent sibling selector (+) general sibling selector (~)</dd>
+<dd>The descendant selector matches all elements that are descendants of a specified element.</dd>
+<dd>The child selector selects all elements that are the children of a specified element.</dd>
+<dd>The adjacent sibling selector selects all elements that are the adjacent siblings of a specified element.</dd>
+<dd>Sibling elements must have the same parent element, and "adjacent" means "immediately following".</dd>
+<dd>The general sibling selector selects all elements that are siblings of a specified element.</dd>
+
+<dt><strong>color</strong></dt>
+<dd>The color property specifies the color of text.</dd>
+<dd>body {color: #92a8d1;}</dd>
+<dd>body {color: red;}</dd>
+
+<dt><strong>background color</strong></dt>
+<dd>body {background-color: coral;}</dd>
+
+<dt><strong>pseudo classes for "a"</strong></dt>
+<dd>selector:pseudo-class {property: value;}</dd>
+<dd>a:link {color: #FF0000;}</dd>
+
+<dt><strong>Background image</strong></dt>
+<dd>body {background-image: url("paper.gif");background-color: #cccccc;}</dd>
+
+<dt><strong>text alignment (left,right,center,justify)</strong></dt>
+<dd>The text-align property is used to set the horizontal alignment of a text.</dd>
+<dd>When the text-align property is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight</dd>
+<dd>left (moved left) usw...</dd>
+
+<dt><strong>text decoration (overline, underline, line-through)</strong></dt>
+<dd>The text-decoration property specifies the decoration added to text, and is a shorthand property for:</dd>
+<dd>text-decoration-line (required)</dd>
+<dd>text-decoration-color</dd>
+<dd>text-decoration-style</dd>
+
+<dt><strong>text transformation (uppercase, lowercase, capitalize)</strong></dt>
+<dd>The text-transform property is used to specify uppercase and lowercase letters in a text.</dd>
+<dd>It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word:</dd>
+
+<dt><strong>Identify difference between serif and sans-serif fonts</strong></dt>
+<dd>Serif fonts have small lines at the ends on some characters</dd>
+<dd>"Sans" means without - these fonts do not have the lines at the ends of characters</dd>
+
+<dt><strong>font families</strong></dt>
+<dd>The font-family property specifies the font for an element.</dd>
+<dd>There are two types of font family names:</dd>
+<dd>family-name - The name of a font-family, like "times", "courier", "arial", etc.</dd>
+<dd>generic-family - The name of a generic-family, like "serif", "sans-serif", "cursive", "fantasy", "monospace".</dd>
+
+<dt><strong>font style normal and italic</strong></dt>
+<dd>	The browser displays a normal font style. This is default</dd>
+<dd>	The browser displays an italic font style</dd>
+
+<dt><strong>font sizes</strong></dt>
+<dd>The font-size property sets the size of a font.</dd>
+
+<dt><strong>font weights</strong></dt>
+<dd>The font-weight property sets how thick or thin characters in text should be displayed.</dd>
 
 <h5> Cheat Sheet Luca Geissler</h5>
